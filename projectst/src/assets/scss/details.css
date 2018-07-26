@@ -1,0 +1,124 @@
+.detail {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.detail .tail-miss {
+  flex: 1;
+  background: #fff;
+  overflow-y: scroll;
+}
+
+.detail .buttext {
+  width: 100%;
+  background: #3aacff;
+  height: 1rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .46rem;
+}
+
+.top {
+  width: 100%;
+  height: auto;
+}
+
+.top .image {
+  width: 100%;
+  height: auto;
+}
+
+.image {
+  position: relative;
+}
+
+.image img {
+  width: 100%;
+  display: block;
+}
+
+.image .num {
+  position: absolute;
+  bottom: .3rem;
+  right: .5rem;
+  color: #fff;
+  padding: 1px .1rem;
+  border-radius: .2rem;
+  background: rgba(0, 0, 0, 0.6);
+  font-size: .24rem;
+}
+
+.textst {
+  width: 100%;
+  height: 1.5rem;
+  border-bottom: .15rem solid #f4f4f4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 .2rem;
+}
+
+.textst .left {
+  display: flex;
+  flex-direction: column;
+}
+
+.textst .left .money {
+  font-size: .36rem;
+  color: red;
+  font-weight: 500;
+}
+
+.textst .left .j-money {
+  font-size: .26rem;
+  color: silver;
+}
+
+.textst .right {
+  background: #00afff;
+  color: #fff;
+  width: 3rem;
+  height: .7rem;
+  border-radius: .1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .46rem;
+}
+
+.data-list {
+  width: 100%;
+  height: auto;
+}
+
+.data-list .child {
+  width: 100%;
+  height: 2rem;
+  border-bottom: solid 1px #f4f4f4;
+  box-sizing: border-box;
+  padding: 0 .2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.min-money {
+  display: flex;
+  justify-content: center;
+}
+
+.min-money p {
+  width: 2rem;
+  height: .5rem;
+  background: #00afff;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: .1rem;
+}
